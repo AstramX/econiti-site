@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.econiti.org/undergraduate/dse",
+  "path": "undergraduate/dse",
+  "timestamp": "2026-04-23T17:45:04.779Z",
+  "title": "General 2 — EcoNiti",
+  "template": "course-detail",
+  "blocks": [
+    "columns-semester"
+  ]
+}

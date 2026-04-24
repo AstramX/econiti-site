@@ -1,0 +1,53 @@
+.accordion-course details {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.accordion-course details summary {
+  position: relative;
+  padding: 20px 16px;
+  padding-right: 46px;
+  cursor: pointer;
+  list-style: none;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size-m);
+  color: var(--accent-color);
+  transition: background-color 0.2s;
+}
+
+.accordion-course details[open] summary {
+  background-color: var(--light-color);
+}
+
+.accordion-course details summary:focus,
+.accordion-course details summary:hover {
+  background-color: var(--light-color);
+}
+
+.accordion-course details summary::-webkit-details-marker {
+  display: none;
+}
+
+.accordion-course details summary::after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--accent-color);
+  transition: transform 0.2s;
+}
+
+.accordion-course details[open] summary::after {
+  content: '\2212';
+}
+
+.accordion-course details .accordion-course-item-body {
+  padding: 0 16px 20px;
+}
+
+.accordion-course details .accordion-course-item-body p {
+  margin-bottom: 0.8em;
+  line-height: 1.6;
+}

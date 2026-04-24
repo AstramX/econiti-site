@@ -1,0 +1,40 @@
+{
+  "variantName": "hero-landing",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-04-23T16:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.econiti.org/",
+    "originPage": "homepage landing page",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "warm",
+    "density": "spacious",
+    "purpose": "landing-hero",
+    "imagePattern": "illustration",
+    "structure": "heading + paragraphs + image"
+  },
+  "contentPattern": {
+    "structure": "heading + paragraphs + image",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "landing pages with large headings and illustrations",
+      "homepage hero sections with gradient backgrounds",
+      "value proposition sections with side-by-side text and image"
+    ],
+    "notSuitableFor": [
+      "hero sections with background images",
+      "hero sections with CTA buttons",
+      "minimal text-only hero banners"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-23T16:12:00.000Z"
+  }
+}

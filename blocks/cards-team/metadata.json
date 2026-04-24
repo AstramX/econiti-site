@@ -1,0 +1,23 @@
+{
+  "variantName": "cards-team",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-23T17:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.econiti.org/aboutus",
+    "originPage": "about page team section",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "warm",
+    "density": "spacious",
+    "purpose": "team-members",
+    "imagePattern": "portrait",
+    "structure": "image + name + bio"
+  },
+  "usage": {
+    "pagesUsing": ["/aboutus"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-23T17:12:00.000Z"
+  }
+}

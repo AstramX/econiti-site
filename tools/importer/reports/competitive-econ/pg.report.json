@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.econiti.org/competitive-econ/pg",
+  "path": "competitive-econ/pg",
+  "timestamp": "2026-04-23T17:45:46.556Z",
+  "title": "CUET Economics PG — EcoNiti",
+  "template": "course-landing",
+  "blocks": [
+    "accordion-course"
+  ]
+}

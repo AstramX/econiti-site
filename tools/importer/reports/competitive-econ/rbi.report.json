@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.econiti.org/competitive-econ/rbi",
+  "path": "competitive-econ/rbi",
+  "timestamp": "2026-04-23T17:45:37.871Z",
+  "title": "General 2 — EcoNiti",
+  "template": "course-landing",
+  "blocks": [
+    "accordion-course"
+  ]
+}

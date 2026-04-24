@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.econiti.org/competitive-econ/net-jrf",
+  "path": "competitive-econ/net-jrf",
+  "timestamp": "2026-04-23T17:45:54.249Z",
+  "title": "General 2 — EcoNiti",
+  "template": "course-landing",
+  "blocks": [
+    "accordion-course"
+  ]
+}

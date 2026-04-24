@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "url": "https://www.econiti.org/undergraduate/ge",
+  "path": "undergraduate/ge",
+  "timestamp": "2026-04-23T17:45:11.466Z",
+  "title": "General 2 — EcoNiti",
+  "template": "course-detail",
+  "blocks": [
+    "columns-semester"
+  ]
+}

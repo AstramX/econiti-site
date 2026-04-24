@@ -1,0 +1,23 @@
+{
+  "variantName": "accordion-course",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-04-23T17:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.econiti.org/competitive-econ/upsc",
+    "originPage": "course landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "warm",
+    "density": "spacious",
+    "purpose": "course-details",
+    "imagePattern": "noimg",
+    "structure": "title + expandable content"
+  },
+  "usage": {
+    "pagesUsing": ["/competitive-econ/upsc", "/competitive-econ/ies", "/competitive-econ/rbi", "/competitive-econ/pg", "/competitive-econ/net-jrf"],
+    "reuseCount": 5,
+    "lastUsed": "2026-04-23T17:12:00.000Z"
+  }
+}

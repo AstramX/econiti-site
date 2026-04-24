@@ -1,0 +1,19 @@
+{
+  "status": "success",
+  "url": "https://www.econiti.org/ecohons",
+  "path": "ecohons",
+  "timestamp": "2026-04-23T17:44:57.262Z",
+  "title": "UG Economics Core (NEP Aligned) | Courses by EcoNiti — EcoNiti",
+  "template": "course-catalog",
+  "blocks": [
+    "columns-semester",
+    "columns-semester",
+    "columns-semester",
+    "columns-semester",
+    "columns-semester",
+    "columns-semester",
+    "columns-semester",
+    "columns-semester",
+    "columns-semester"
+  ]
+}

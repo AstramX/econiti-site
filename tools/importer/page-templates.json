@@ -1,0 +1,69 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": ["https://www.econiti.org/"],
+      "description": "Main landing page with hero section, value proposition text, and animated image",
+      "blocks": [
+        {
+          "name": "hero-landing",
+          "instances": [".fluid-engine.fe-67efc7fcfb62b1532821f89b"]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Section",
+          "selector": "main#page article.sections > section.page-section",
+          "style": "warm-gradient",
+          "blocks": ["hero-landing"],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Footer Section",
+          "selector": "footer#footer-sections > section.page-section",
+          "style": "warm-gradient",
+          "blocks": [],
+          "defaultContent": [".collectionlink-block a", ".fe-681399dd2bd32717e015caa3 .html-block", ".embed-block p"]
+        }
+      ]
+    },
+    {
+      "name": "about-page",
+      "urls": ["https://www.econiti.org/aboutus"],
+      "description": "About page with core belief section and team member cards with photos and bios",
+      "blocks": []
+    },
+    {
+      "name": "contact-page",
+      "urls": ["https://www.econiti.org/contact"],
+      "description": "Contact page with hero banner and contact info block (email, phone, WhatsApp, address)",
+      "blocks": []
+    },
+    {
+      "name": "testimonials-page",
+      "urls": ["https://www.econiti.org/testimonials"],
+      "description": "Testimonials page with hero banner and student testimonial cards with names and achievements",
+      "blocks": []
+    },
+    {
+      "name": "course-catalog",
+      "urls": ["https://www.econiti.org/ecohons"],
+      "description": "Semester-organized course catalog with subject cards, syllabus downloads, preview links, and enrollment CTAs",
+      "blocks": []
+    },
+    {
+      "name": "course-detail",
+      "urls": ["https://www.econiti.org/undergraduate/dse", "https://www.econiti.org/undergraduate/ge"],
+      "description": "Undergraduate course info pages with curriculum details and enrollment options",
+      "blocks": []
+    },
+    {
+      "name": "course-landing",
+      "urls": ["https://www.econiti.org/competitive-econ/upsc", "https://www.econiti.org/competitive-econ/ies", "https://www.econiti.org/competitive-econ/rbi", "https://www.econiti.org/competitive-econ/pg", "https://www.econiti.org/competitive-econ/net-jrf"],
+      "description": "Competitive exam course landing pages with hero, expandable content sections, resource downloads, and enrollment CTAs",
+      "blocks": []
+    }
+  ]
+}

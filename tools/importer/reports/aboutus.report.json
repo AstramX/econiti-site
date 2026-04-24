@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "url": "https://www.econiti.org/aboutus",
+  "path": "aboutus",
+  "timestamp": "2026-04-23T17:44:22.095Z",
+  "title": "About Us — EcoNiti | Expert Economics Mentorship — EcoNiti",
+  "template": "about-page",
+  "blocks": [
+    "columns-highlight",
+    "cards-team"
+  ]
+}

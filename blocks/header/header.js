@@ -127,7 +127,14 @@ export default async function decorate(block) {
   const classes = ['brand', 'sections', 'tools'];
   classes.forEach((c, i) => {
     const section = nav.children[i];
-    if (section) section.classList.add(`nav-${c}`);
+    if (section) {
+      section.classList.add(`nav-${c}`);
+      // ensure the element containing the ul has default-content-wrapper class
+      const ulParent = section.querySelector(':scope > ul')?.parentElement;
+      if (ulParent && !ulParent.classList.contains('default-content-wrapper')) {
+        ulParent.classList.add('default-content-wrapper');
+      }
+    }
   });
 
   const navBrand = nav.querySelector('.nav-brand');
@@ -139,6 +146,11 @@ export default async function decorate(block) {
 
   const navSections = nav.querySelector('.nav-sections');
   if (navSections) {
+    navSections.querySelectorAll('.button').forEach((button) => {
+      button.className = '';
+      const buttonContainer = button.closest('.button-container');
+      if (buttonContainer) buttonContainer.className = '';
+    });
     navSections.querySelectorAll(':scope .default-content-wrapper > ul > li').forEach((navSection) => {
       if (navSection.querySelector('ul')) navSection.classList.add('nav-drop');
       navSection.addEventListener('click', () => {

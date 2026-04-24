@@ -1,0 +1,40 @@
+.cards-team > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 32px;
+}
+
+.cards-team > ul > li {
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--light-color);
+}
+
+.cards-team .cards-team-card-body {
+  padding: 16px 20px 24px;
+}
+
+.cards-team .cards-team-card-body h4 {
+  color: var(--accent-color);
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.cards-team .cards-team-card-body p {
+  font-size: var(--body-font-size-xs);
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.cards-team .cards-team-card-image {
+  line-height: 0;
+}
+
+.cards-team > ul > li img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
